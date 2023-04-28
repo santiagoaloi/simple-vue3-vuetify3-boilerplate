@@ -17,11 +17,10 @@
 ## Cool features ✨
 
 - Light/dark mode toggle
-- 404 Layouts and file based routing
+- 404 Layouts and file-based routing
 - Vuetfiy Defaults, icons, themes
 - Pinia Persistence functionality
 - Auto-import components
-- File-based routing
 - Custom fonts
 
 
