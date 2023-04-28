@@ -26,7 +26,7 @@ defineProps({
 
 <style scoped>
 .wrapper { 
-  @apply px-4 text-center sm:px-6 lg:px-8
+  @apply flex flex-col px-4 text-center sm:px-6 lg:px-8
 }
 
 h1 {
