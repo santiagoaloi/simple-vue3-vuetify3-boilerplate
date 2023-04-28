@@ -1,7 +1,5 @@
 import { createVuetify } from 'vuetify'
 
-//Labs
-
 // Default configurations
 import { defaults, theme, icons } from '@/config/vuetify'
 
