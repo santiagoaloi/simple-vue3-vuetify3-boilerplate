@@ -12,7 +12,7 @@
   </a>
 </p>
 
-# <span style="color: #0062f0;">  VueJS 3 /Vuetify 3 / Tailwind 3 </span>
+# <span style="color: #0062f0;">  VueJS 3 / Vuetify 3 / Tailwind 3 </span>
 
 ## Cool features ✨
 
