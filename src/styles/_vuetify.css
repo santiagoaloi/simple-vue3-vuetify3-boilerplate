@@ -1,0 +1,70 @@
+/* 👉 Typography */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.text-h1,
+.text-h2,
+.text-h3,
+.text-h4,
+.text-h5,
+.text-h6,
+.text-button,
+.text-overline,
+.text-caption,
+.text-body-1,
+.text-body-2,
+.text-subtitle-1,
+.text-subtitle-2 {
+  color: rgba(var(--v-app-typography)) !important;
+}
+
+html,
+#app .v-aplication {
+  overflow-y: auto !important;
+  /* user-select: none; */
+}
+
+.v-input--density-compact {
+  --v-input-control-height: 25px !important;
+}
+
+.v-field {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.v-card,
+.v-item-group {
+  transition-duration: 0ms !important;
+}
+
+.v-btn {
+  transition-property: transform;
+  transition-duration: 0.2s;
+}
+
+.v-input__details {
+  position: absolute;
+  margin-top: 49px;
+}
+
+.v-field__outline {
+  color: rgba(var(--v-field-outline));
+}
+
+.v-label.v-field-label {
+  color: rgba(var(--v-field-label));
+}
+
+/* Ths fixes a strange white underline in text fields while using tailwind */
+.v-field--variant-outlined .v-field__outline__notch {
+  border-width: 0 0 0px !important;
+}
+
+.v-btn--variant-text .v-btn__overlay {
+  background-color: unset !important;
+}

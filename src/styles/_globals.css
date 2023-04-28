@@ -1,0 +1,15 @@
+.bg-dark {
+  background: #151d32;
+}
+
+.bg-light {
+  background-color: #f0f2f5;
+}
+
+.v-btn {
+  transition: all 0.2s ease-in-out;
+}
+
+.v-btn:active {
+  transform: translateY(1.2px);
+}

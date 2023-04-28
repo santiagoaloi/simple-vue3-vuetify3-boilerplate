@@ -1,0 +1,18 @@
+/*  
+https://www.npmjs.com/package/vue-nprogress
+*/
+
+#nprogress {
+  pointer-events: none;
+}
+
+#nprogress .bar {
+  background: #5e8acd;
+  opacity: 1;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+}

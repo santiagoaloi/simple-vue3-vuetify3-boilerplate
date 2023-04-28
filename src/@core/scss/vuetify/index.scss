@@ -1,0 +1,8 @@
+// This makes possble to use sass css shortcuts
+// without re-importing vuetfiy styles.
+// 'vuetify/styles' should be removed from vuetfy plugnin
+// initialization
+@use 'variables';
+
+@forward 'shortcuts';
+@forward 'components';

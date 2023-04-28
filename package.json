@@ -1,0 +1,52 @@
+{
+  "name": "boilerplate",
+  "description": "Vue3, Vuetify3, Tailwind3 boilerplate",
+  "version": "1.0.0",
+  "private": false,
+  "author": "Santiago Aloi <santiagoaloi@gmail.com> (https://github.com/santiagoaloi/)",
+  "config": {
+    "viteConfig": "./vite/vite.config.js"
+  },
+  "scripts": {
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "format": "prettier --write src/",
+    "dev": "yarn format && vite --config ${npm_package_config_viteConfig}",
+    "build": "yarn format && vite build --config ${npm_package_config_viteConfig}",
+    "preview": "yarn build && vite preview --config ${npm_package_config_viteConfig} --open",
+    "preview:dist": "vite preview --config ${npm_package_config_viteConfig}"
+  },
+  "dependencies": {
+    "@vueuse/core": "^10.1.0",
+    "nprogress": "^0.2.0",
+    "pinia": "^2.0.22",
+    "pinia-plugin-persistedstate": "^2.4.0",
+    "vue": "^3.2.45",
+    "vue-router": "^4.1.5",
+    "vuetify": "^3.2.1"
+  },
+  "devDependencies": {
+    "@mdi/js": "6.2.95",
+    "@rushstack/eslint-patch": "^1.2.0",
+    "@vitejs/plugin-vue": "^3.1.0",
+    "@vue/eslint-config-prettier": "^7.1.0",
+    "autoprefixer": "^10.4.14",
+    "eslint": "^8.38.0",
+    "eslint-plugin-tailwindcss": "^3.11.0",
+    "eslint-plugin-vue": "^9.9.0",
+    "lodash.clonedeep": "^4.5.0",
+    "postcss": "^8.4.21",
+    "prettier": "^2.8.7",
+    "prettier-plugin-tailwindcss": "^0.2.7",
+    "prettier-plugin-vue": "^1.1.6",
+    "sass": "^1.56.1",
+    "tailwindcss": "^3.3.1",
+    "unplugin-auto-import": "^0.14.2",
+    "unplugin-fonts": "^1.0.3",
+    "unplugin-vue-components": "^0.22.7",
+    "unplugin-vue-macros": "^0.11.2",
+    "vite": "^3.2.5",
+    "vite-plugin-pages": "^0.26.0",
+    "vite-plugin-vue-layouts": "^0.7.0",
+    "vite-plugin-vuetify": "^1.0.0-alpha.12"
+  }
+}

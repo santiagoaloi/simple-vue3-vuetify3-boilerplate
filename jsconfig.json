@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "moduleResolution": "node",
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"],
+      "@P/*": ["src/pages/*"],
+      "@U/*": ["src/utils/*"],
+      "@S/*": ["src/stores/*"],
+      "@M/*": ["src/modules/*"],
+      "@C/*": ["src/@core/composables/*"]
+    },
+    "lib": ["esnext", "dom", "dom.iterable", "scripthost"]
+  },
+  "exclude": ["node_modules", "dist"]
+}
