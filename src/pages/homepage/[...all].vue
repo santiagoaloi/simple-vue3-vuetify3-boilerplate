@@ -1,5 +1,5 @@
 <template>
-  <div class="flex h-full items-center justify-center">
+  <div class="wrapper">
     <NotFound
       subtitle="Sorry, we couldn't find your page."
       title="Oops, something went wrong."
@@ -7,3 +7,9 @@
     />
   </div>
 </template>
+
+<style scoped>
+.wrapper {
+  @apply flex h-full items-center justify-center
+}
+</style>
