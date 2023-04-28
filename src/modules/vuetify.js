@@ -1,7 +1,6 @@
 import { createVuetify } from 'vuetify'
 
 //Labs
-import { VDataTable } from 'vuetify/labs/VDataTable'
 
 // Default configurations
 import { defaults, theme, icons } from '@/config/vuetify'
@@ -15,10 +14,6 @@ import { aliases as iconAliases, mdi as mdiSvg } from 'vuetify/iconsets/mdi-svg'
 
 export const install = (app) => {
   const vuetify = createVuetify({
-    components: {
-      VDataTable
-    },
-
     icons: {
       defaultSet: 'mdiSvg',
       aliases: {
