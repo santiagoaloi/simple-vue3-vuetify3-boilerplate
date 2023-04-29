@@ -67,5 +67,7 @@ yarn lint
 
 # Format the whole codebase
 yarn format
-
 ```
+
+![Lifecycle:Experimental](https://img.shields.io/badge/Lifecycle-Experimental-339999)
+<div> The project is in the very early stages of development. The codebase will be changing frequently.</div>
