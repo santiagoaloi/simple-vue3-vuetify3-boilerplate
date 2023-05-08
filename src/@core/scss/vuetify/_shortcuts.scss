@@ -6,3 +6,12 @@
 *  This can be useful for avoiding duplication of CSS code and for creating reusable CSS classes
 *  Can  extend vuetify classes ONLY. 
 **/
+
+/*
+This CSS class is named "example-class". It uses the SCSS syntax to extend several Vuetify
+classes using the @extend directive. By doing this, it inherits all the properties of those
+classes, effectively combining them into a single class.
+*/
+.example-class {
+    @extend .d-flex, .align-center, .fill-height, .justify-center;
+}
