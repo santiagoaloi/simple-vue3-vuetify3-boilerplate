@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@vueuse/core": "^10.1.0",
+    "lodash-es": "^4.17.21",
     "nprogress": "^0.2.0",
     "pinia": "^2.0.22",
     "pinia-plugin-persistedstate": "^2.4.0",
@@ -33,7 +34,6 @@
     "eslint": "^8.38.0",
     "eslint-plugin-tailwindcss": "^3.11.0",
     "eslint-plugin-vue": "^9.9.0",
-    "lodash.clonedeep": "^4.5.0",
     "postcss": "^8.4.21",
     "prettier": "^2.8.7",
     "prettier-plugin-tailwindcss": "^0.2.7",
