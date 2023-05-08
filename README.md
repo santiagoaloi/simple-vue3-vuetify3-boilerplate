@@ -12,7 +12,7 @@
   </a>
 </p>
 
-# <span style="color: #0062f0;">  VueJS 3 / Vuetify 3 / Tailwind 3 </span>
+# <span style="color: #0062f0;"> VueJS 3 / Vuetify 3 / Tailwind 3 </span>
 
 ## Cool features ✨
 
@@ -22,7 +22,6 @@
 - Pinia Persistence functionality
 - Auto-import components
 - Custom fonts
-
 
 ## Git commit specification reference
 
@@ -45,7 +44,7 @@
 ```bash
 
 # clone
-git clone https://github.com/santiagoaloi/simplesign-refactor.git
+git clone https://github.com/santiagoaloi/simple-boilerplate.git
 
 # enter the project directory
 cd simplesign-refactor
@@ -70,4 +69,5 @@ yarn format
 ```
 
 ![Lifecycle:Experimental](https://img.shields.io/badge/Lifecycle-Experimental-339999)
+
 <div> The project is in the very early stages of development. The codebase will be changing frequently.</div>
