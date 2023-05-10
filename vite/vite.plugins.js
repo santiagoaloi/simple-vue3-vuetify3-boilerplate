@@ -43,13 +43,8 @@ export function createVitePlugins() {
           vuetify: ['useDisplay', 'createVuetify', 'useTheme']
         }
       ],
-      dirs: [
-        'src/utils/**',
+      dirs: ['src/utils/**', 'src/composables/**', 'src/stores/**/**', 'src/pages/**/**/stores'],
 
-        //Stores
-        'src/stores/**/**',
-        'src/pages/**/**/stores'
-      ],
       vueTemplate: true,
       dts: true,
       eslintrc: {
