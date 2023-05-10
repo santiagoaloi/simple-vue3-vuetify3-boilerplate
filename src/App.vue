@@ -6,23 +6,7 @@
 </template>
 
 <script setup>
-// 👉 pinia appStore.currentTheme is persisted.
-// 👉 currentTheme values are light / dark
-// 👉 toRefs is needed so reactivity continues in destructure.
-
+import { useTailwindTheme } from '@C/tailwind-theme'
 const { currentTheme } = toRefs(useAppStore())
-
-// 👉 Tweak to make sure the html tag background
-// 👉 matches the current theme.
-
-if (currentTheme.value === 'light') {
-  document.documentElement.classList.toggle('dark') // toggle tailwind theme.
-}
-
-watchEffect(() => {
-  const html = document.documentElement
-  html.classList.remove('bg-light', 'bg-dark')
-  html.classList.add(currentTheme.value === 'light' ? 'bg-light' : 'bg-dark')
-  document.documentElement.classList.toggle('dark') // toggle tailwind theme.
-})
+useTailwindTheme(currentTheme)
 </script>
