@@ -9,7 +9,7 @@
       "@U/*": ["src/utils/*"],
       "@S/*": ["src/stores/*"],
       "@M/*": ["src/modules/*"],
-      "@C/*": ["src/@core/composables/*"]
+      "@C/*": ["src/composables/*"]
     },
     "lib": ["esnext", "dom", "dom.iterable", "scripthost"]
   },
