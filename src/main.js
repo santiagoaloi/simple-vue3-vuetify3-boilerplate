@@ -8,10 +8,8 @@ import 'unfonts.css'
 // Styling && Tailwind
 import '@/styles'
 
-let VueApp
-
 // `createApp` returns an app instance with configurable context shared.
-VueApp = createApp(rootApp)
+const VueApp = createApp(rootApp)
 
 // install all modules.
 autoImportModules(VueApp)

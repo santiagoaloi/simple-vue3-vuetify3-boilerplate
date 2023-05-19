@@ -8,11 +8,11 @@
     width="260"
   >
     <VList nav>
-      <div class="flex items-center pa-2 mb-3 justify-between">
+      <div class="pa-2 mb-3 flex items-center justify-between">
         <RouterLink to="/">
           <VImg src="/company_logos/logo.svg" width="150">
             <template #placeholder>
-              <div class="flex items-center justify-center h-full">
+              <div class="flex h-full items-center justify-center">
                 <VProgressCircular color="grey-lighten-4" indeterminate />
               </div>
             </template>
@@ -36,6 +36,13 @@
         prepend-icon="$mdiHomeOutline"
         title="Dashboard"
         to="/"
+      />
+      <VListItem
+        :ripple="false"
+        active-color="primary"
+        prepend-icon="$mdiHomeOutline"
+        title="Playground"
+        to="/playground"
       />
     </VList>
   </VNavigationDrawer>

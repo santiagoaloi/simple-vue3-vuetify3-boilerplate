@@ -1202,6 +1202,19 @@ eslint-plugin-tailwindcss@^3.11.0:
     fast-glob "^3.2.5"
     postcss "^8.4.4"
 
+eslint-plugin-vue@^9.6.0:
+  version "9.13.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-vue/-/eslint-plugin-vue-9.13.0.tgz#adb21448e65a7c1502af66103ff5f215632c5319"
+  integrity sha512-aBz9A8WB4wmpnVv0pYUt86cmH9EkcwWzgEwecBxMoRNhQjTL5i4sqadnwShv/hOdr8Hbl8XANGV7dtX9UQIAyA==
+  dependencies:
+    "@eslint-community/eslint-utils" "^4.3.0"
+    natural-compare "^1.4.0"
+    nth-check "^2.0.1"
+    postcss-selector-parser "^6.0.9"
+    semver "^7.3.5"
+    vue-eslint-parser "^9.3.0"
+    xml-name-validator "^4.0.0"
+
 eslint-plugin-vue@^9.9.0:
   version "9.11.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-vue/-/eslint-plugin-vue-9.11.0.tgz#99a247455c02181f24d9240d422380fd16dd630c"
@@ -1214,6 +1227,14 @@ eslint-plugin-vue@^9.9.0:
     semver "^7.3.5"
     vue-eslint-parser "^9.0.1"
     xml-name-validator "^4.0.0"
+
+eslint-plugin-vuetify@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-vuetify/-/eslint-plugin-vuetify-2.0.1.tgz#447f4971235555949bbf44b903fbaf44d192140b"
+  integrity sha512-zuiXmef3hMl04aLtiU6EbAJwvlYo1iTr8HC9wdk5nE6Z5cgaw/AXkYx4O27vQIqA6HZE/w7tSHTFvtzd7/dlsQ==
+  dependencies:
+    eslint-plugin-vue "^9.6.0"
+    requireindex "^1.2.0"
 
 eslint-scope@^7.1.1, eslint-scope@^7.2.0:
   version "7.2.0"
@@ -1936,15 +1957,15 @@ locate-path@^6.0.0:
   dependencies:
     p-locate "^5.0.0"
 
+lodash-es@^4.17.21:
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.21.tgz#43e626c46e6591b7750beb2b50117390c609e3ee"
+  integrity sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==
+
 lodash._reinterpolate@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/lodash._reinterpolate/-/lodash._reinterpolate-3.0.0.tgz#0ccf2d89166af03b3663c796538b75ac6e114d9d"
   integrity sha512-xYHt68QRoYGjeeM/XOE1uJtvXQAgvszfBhjV4yvsQH0u2i9I6cI6c6/eG4Hh3UAOVn0y/xAXwmTzEay49Q//HA==
-
-lodash.clonedeep@^4.5.0:
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/lodash.clonedeep/-/lodash.clonedeep-4.5.0.tgz#e23f3f9c4f8fbdde872529c1071857a086e5ccef"
-  integrity sha512-H5ZhCF25riFd9uB5UCkVKo61m3S/xZk1x4wA6yp/L3RFP6Z/eHH1ymQcGLo7J3GMPfm0V/7m1tryHuGVxpqEBQ==
 
 lodash.merge@^4.6.2:
   version "4.6.2"
@@ -2510,6 +2531,11 @@ regexp.prototype.flags@^1.5.0:
     define-properties "^1.2.0"
     functions-have-names "^1.2.3"
 
+requireindex@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/requireindex/-/requireindex-1.2.0.tgz#3463cdb22ee151902635aa6c9535d4de9c2ef1ef"
+  integrity sha512-L9jEkOi3ASd9PYit2cwRfyppc9NoABujTP8/5gFcbERmo5jUoAKovIC3fsF17pkTnGsrByysqX+Kxd2OTNI1ww==
+
 resolve-from@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/resolve-from/-/resolve-from-4.0.0.tgz#4abcd852ad32dd7baabfe9b40e00a36db5f392e6"
@@ -3029,6 +3055,19 @@ vue-eslint-parser@^9.0.1:
   version "9.1.1"
   resolved "https://registry.yarnpkg.com/vue-eslint-parser/-/vue-eslint-parser-9.1.1.tgz#3f4859be7e9bb7edaa1dc7edb05abffee72bf3dd"
   integrity sha512-C2aI/r85Q6tYcz4dpgvrs4wH/MqVrRAVIdpYedrxnATDHHkb+TroeRcDpKWGZCx/OcECMWfz7tVwQ8e+Opy6rA==
+  dependencies:
+    debug "^4.3.4"
+    eslint-scope "^7.1.1"
+    eslint-visitor-keys "^3.3.0"
+    espree "^9.3.1"
+    esquery "^1.4.0"
+    lodash "^4.17.21"
+    semver "^7.3.6"
+
+vue-eslint-parser@^9.3.0:
+  version "9.3.0"
+  resolved "https://registry.yarnpkg.com/vue-eslint-parser/-/vue-eslint-parser-9.3.0.tgz#775a974a0603c9a73d85fed8958ed9e814a4a816"
+  integrity sha512-48IxT9d0+wArT1+3wNIy0tascRoywqSUe2E1YalIC1L8jsUGe5aJQItWfRok7DVFGz3UYvzEI7n5wiTXsCMAcQ==
   dependencies:
     debug "^4.3.4"
     eslint-scope "^7.1.1"

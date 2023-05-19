@@ -1,7 +1,3 @@
-/*
- * Keeping inports separately to clean Vite config.
- * Any library usage should be prefixed with ``
- */
 import {
   vue,
   vuetify,
@@ -24,11 +20,13 @@ export function createVitePlugins() {
       styles: { configFile: 'src/@core/scss/vuetify/variables.scss' }
     }),
 
-    // https://github.com/sxzz/unplugin-vue-macros
+    // Add comments here to describe the purpose of each plugin
+
+    // Vue Macros plugin: https://github.com/sxzz/unplugin-vue-macros
     vueMacros(),
 
-    // https://github.com/antfu/unplugin-auto-import
-    // Autoimport dependencies inside SFCs or JS.
+    // Auto Import plugin: https://github.com/antfu/unplugin-auto-import
+    // Automatically import dependencies inside Single-File Components (SFCs) or JavaScript.
     autoImport({
       imports: [
         'vue',
@@ -52,8 +50,8 @@ export function createVitePlugins() {
       }
     }),
 
-    // https://github.com/antfu/unplugin-vue-components
-    // Autoimport Vue SFCs.
+    // Vue Components plugin: https://github.com/antfu/unplugin-vue-components
+    // Automatically import Vue Single-File Components (SFCs).
     components({
       dirs: [
         // Base reusable components
@@ -70,12 +68,14 @@ export function createVitePlugins() {
       dts: true
     }),
 
-    // https://github.com/JohnCampionJr/vite-plugin-vue-layouts
+    // Vue Layouts plugin: https://github.com/JohnCampionJr/vite-plugin-vue-layouts
+    // Simplifies Vue layouts and nested routing.
     layouts({
       exclude: ['components']
     }),
 
-    // https://github.com/hannoeru/vite-plugin-pages
+    // Vue Pages plugin: https://github.com/hannoeru/vite-plugin-pages
+    // Dynamically generates Vue routes from a directory structure.
     pages({
       dirs: [
         {

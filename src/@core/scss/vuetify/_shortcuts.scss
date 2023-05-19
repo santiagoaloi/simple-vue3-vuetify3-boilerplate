@@ -13,5 +13,5 @@ classes using the @extend directive. By doing this, it inherits all the properti
 classes, effectively combining them into a single class.
 */
 .example-class {
-    @extend .d-flex, .align-center, .fill-height, .justify-center;
+  @extend .d-flex, .align-center, .fill-height, .justify-center;
 }

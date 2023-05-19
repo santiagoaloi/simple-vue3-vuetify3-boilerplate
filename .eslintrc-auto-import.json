@@ -85,6 +85,7 @@
     "useRoute": true,
     "useRouter": true,
     "useSlots": true,
+    "useTailwindTheme": true,
     "useTheme": true,
     "watch": true,
     "watchEffect": true,

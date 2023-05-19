@@ -1,7 +1,9 @@
 <template>
   <VApp :theme="currentTheme">
-    <!-- handles layouts only -->
-    <RouterView />
+    <!--
+      handles layouts only 
+    -->
+    <RouterView> </RouterView>
   </VApp>
 </template>
 

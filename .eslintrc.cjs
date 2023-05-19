@@ -5,15 +5,64 @@ module.exports = {
   root: true,
   extends: [
     'plugin:vue/vue3-strongly-recommended',
+    'plugin:vuetify/base',
     'eslint:recommended',
     '@vue/eslint-config-prettier/skip-formatting',
-    './.eslintrc-auto-import.json'
-    // 'plugin:tailwindcss/recommended'
+    './.eslintrc-auto-import.json',
+    'plugin:tailwindcss/recommended'
   ],
   parserOptions: {
-    ecmaVersion: 'latest'
+    ecmaVersion: 'latest',
+    sourceType: 'module'
   },
   rules: {
+    'vue/html-comment-indent': ['error'],
+    'vue/html-comment-content-spacing': ['error', 'always'],
+    'vue/html-comment-content-newline': [
+      'error',
+      {
+        singleline: 'always',
+        multiline: 'always'
+      }
+    ],
+
+    'vue/block-tag-newline': [
+      'error',
+      {
+        singleline: 'always',
+        multiline: 'always',
+        maxEmptyLines: 0,
+        blocks: {
+          template: {
+            singleline: 'always',
+            multiline: 'always',
+            maxEmptyLines: 0
+          },
+          script: {
+            singleline: 'always',
+            multiline: 'always',
+            maxEmptyLines: 0
+          }
+        }
+      }
+    ],
+
+    'vue/singleline-html-element-content-newline': [
+      'error',
+      {
+        ignoreWhenNoAttributes: true,
+        ignoreWhenEmpty: true,
+        ignores: ['pre', 'textarea']
+      }
+    ],
+
+    'vue/define-macros-order': [
+      'error',
+      {
+        order: ['defineProps', 'defineEmits']
+      }
+    ],
+
     // <some-component /> becomes <SomeComponent />
     'vue/component-name-in-template-casing': [
       'error',

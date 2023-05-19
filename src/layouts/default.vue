@@ -7,7 +7,9 @@
       <RouterView v-slot="{ Component }">
         <template v-if="Component">
           <VFadeTransition hide-on-leave>
-            <Component :is="Component" />
+            <VContainer fluid>
+              <Component :is="Component" />
+            </VContainer>
           </VFadeTransition>
         </template>
       </RouterView>

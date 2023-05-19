@@ -18,9 +18,6 @@ auto-imports.d.ts
 components.d.ts
 .vscode
 
-# Firebase
-.firebase
-
 # Vite generate
 dist
 

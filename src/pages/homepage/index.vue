@@ -1,3 +1,3 @@
 <template>
-  <VContainer fluid> Hello from homepage </VContainer>
+  <div>Hello from homepage</div>
 </template>

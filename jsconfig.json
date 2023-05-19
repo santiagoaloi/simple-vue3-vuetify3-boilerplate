@@ -1,17 +1,17 @@
 {
   "compilerOptions": {
-    "target": "es6",
-    "moduleResolution": "node",
-    "baseUrl": "./",
+    "target": "es6", // Specify the ECMAScript version to target
+    "moduleResolution": "node", // Specify the module resolution strategy
+    "baseUrl": "./", // Base URL for module resolution
     "paths": {
-      "@/*": ["src/*"],
-      "@P/*": ["src/pages/*"],
-      "@U/*": ["src/utils/*"],
-      "@S/*": ["src/stores/*"],
-      "@M/*": ["src/modules/*"],
-      "@C/*": ["src/composables/*"]
+      "@/*": ["src/*"], // Define path aliases for the source directory
+      "@P/*": ["src/pages/*"], // Alias for the pages directory
+      "@U/*": ["src/utils/*"], // Alias for the utils directory
+      "@S/*": ["src/stores/*"], // Alias for the stores directory
+      "@M/*": ["src/modules/*"], // Alias for the modules directory
+      "@C/*": ["src/composables/*"] // Alias for the composables directory
     },
-    "lib": ["esnext", "dom", "dom.iterable", "scripthost"]
+    "lib": ["esnext", "dom", "dom.iterable", "scripthost"] // Specify the library files to include
   },
-  "exclude": ["node_modules", "dist"]
+  "exclude": ["node_modules", "dist"] // Directories to exclude from compilation
 }
