@@ -68,3 +68,10 @@ html,
 .v-btn--variant-text .v-btn__overlay {
   background-color: unset !important;
 }
+
+.v-list-item__overlay {
+  transition: opacity 0s !important ;
+  transition-duration: 0s !important;
+  transition-delay: 0s !important;
+  transition-property: unset !important;
+}

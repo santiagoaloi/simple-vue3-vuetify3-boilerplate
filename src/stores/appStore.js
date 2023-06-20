@@ -9,7 +9,8 @@ export const useAppStore = defineStore('global-application', {
       model: false,
       text: '',
       color: ''
-    }
+    },
+    array: [1, 2, 3]
   }),
 
   persist: {

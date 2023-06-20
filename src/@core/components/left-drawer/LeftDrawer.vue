@@ -31,18 +31,19 @@
       </div>
 
       <VListItem
-        :ripple="false"
+        v-ripple="false"
         active-color="primary"
         prepend-icon="$mdiHomeOutline"
         title="Dashboard"
         to="/"
       />
       <VListItem
-        :ripple="false"
+        v-ripple="false"
         active-color="primary"
         prepend-icon="$mdiHomeOutline"
         title="Playground"
         to="/playground"
+        @click.stop
       />
     </VList>
   </VNavigationDrawer>
