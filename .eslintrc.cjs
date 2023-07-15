@@ -18,6 +18,7 @@ module.exports = {
   rules: {
     'vue/html-comment-indent': ['error'],
     'vue/html-comment-content-spacing': ['error', 'always'],
+
     'vue/html-comment-content-newline': [
       'error',
       {
@@ -44,15 +45,6 @@ module.exports = {
             maxEmptyLines: 0
           }
         }
-      }
-    ],
-
-    'vue/singleline-html-element-content-newline': [
-      'error',
-      {
-        ignoreWhenNoAttributes: true,
-        ignoreWhenEmpty: true,
-        ignores: ['pre', 'textarea']
       }
     ],
 
